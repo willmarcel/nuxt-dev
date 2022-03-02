@@ -8,8 +8,6 @@
     export default {
         name: '',
 
-        layout: 'auth',
-
         data() {
             return{
 

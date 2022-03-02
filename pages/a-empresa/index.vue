@@ -9,6 +9,17 @@
     export default {
         name: '',
 
+        // Executa antes do carregamento da pagina
+        // Middleware anonimo: É chamado como function
+        // middleware() {
+        //   console.log('midd a empresa');
+        // },
+
+        //Middleware Nomeado: é chamado como propriedade
+        // middleware: 'auth',
+
+        // Middlewate Router: é declarado lá no nuxt.config.js
+
         data() {
             return{
 
